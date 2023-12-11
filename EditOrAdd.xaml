@@ -1,0 +1,15 @@
+﻿<Window x:Class="Аудиоплеер.EditOrAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Аудиоплеер"
+        mc:Ignorable="d"
+        Title="EditOrAdd" Height="180" Width="260" Loaded="Window_Loaded">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Text="Введите название песни"  TextAlignment="Center" FontSize="16" FontWeight="Bold" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="NewName" HorizontalAlignment="Center" Height="36" Margin="0,51,0,0" TextWrapping="Wrap" Text="NewSong" VerticalAlignment="Top" Width="200" FontFamily="Bahnschrift" VerticalContentAlignment="Center" Padding="5,0,0,0"/>
+        <Button x:Name="Undo" Content="Отмена" HorizontalAlignment="Left" Height="27" Margin="140,105,0,10" VerticalAlignment="Top" Width="76" FontFamily="Bahnschrift" Padding="0,1,0,0" Click="UndoClick"/>
+        <Button Content="Ок" HorizontalAlignment="Left" Height="27" Margin="30,105,0,10" VerticalAlignment="Top" Width="76" Click="OkClick" FontFamily="Bahnschrift" Padding="0,1,0,0"/>
+    </Grid>
+</Window>
