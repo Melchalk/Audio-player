@@ -14,7 +14,7 @@
         <ListBox x:Name="ListOfMusic" HorizontalAlignment="Center" Height="160" Margin="0,151,0,0" VerticalAlignment="Top" Width="233" SelectionChanged="NewPlay"/>
         <Slider x:Name="Value" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" Width="260" ValueChanged="NewValue" Maximum="60"/>
         <Button Content="Edit" HorizontalAlignment="Left" Height="28" Margin="26,60,0,0" VerticalAlignment="Top" Width="50" Click="EditSong" FontFamily="Bahnschrift" Padding="0,1,0,0"/>
-        <Button Content="Del" HorizontalAlignment="Left" Height="28" Margin="210,60,0,0" VerticalAlignment="Top" Width="50" Click="DelSong" FontFamily="Bahnschrift" Padding="0,1,0,0"/>
+        <Button Content="Del" HorizontalAlignment="Left" Height="28" Margin="210,60,0,0" VerticalAlignment="Top" Width="50" Click="DeleteSong" FontFamily="Bahnschrift" Padding="0,1,0,0"/>
         <Label Content="MyMusic" HorizontalAlignment="Center" Height="31" Margin="0,14,0,0" VerticalAlignment="Top" Width="160" FontSize="26" VerticalContentAlignment="Center" Padding="0,0,0,0" HorizontalContentAlignment="Center" FontFamily="Bahnschrift" FontWeight="SemiBold"/>
 
     </Grid>
